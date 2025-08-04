@@ -30,3 +30,38 @@
 </body>
 
 </html>
+
+<!--
+element selector: h1
+(when you select an element, you can use the tag name directly in CSS)
+
+class selector: .name_of_the_class
+(when you select a class, you use a dot followed by the class name)
+(class is what we can add as an attribute to an element in HTML)
+
+<h2 class="red-text">This is a heading</h2>
+.red-text {
+  color: red;
+}
+  doesn't matter the element, as long as it has the class "red-text", it will be red
+
+id selector: #name_of_the_id
+(when you select an id, you use a hash followed by the id name)
+<h2 id="main">
+  #main{
+    color: blue;
+  }
+    
+class selector can be applied to multiple elements, but id selector can only be applied to one element
+
+attribute selector: p[draggable]{
+  color: green;
+}
+html_element[attribute="value"]{
+  color: green;
+}
+
+universal selector: *
+(when you select all elements, you use an asterisk)
+
+-->
