@@ -1,1 +1,43 @@
 /* Write your code here: */
+h1,
+h2 {
+  color: blueviolet;
+}
+/*Group Selector*/
+
+.box > .done {
+  color: firebrick;
+}
+/*
+parent > child 
+apply to direct child of left side 
+only one level 
+*/
+
+.box li {
+  color: blue;
+}
+/*
+descendant
+apply to a descendant of left side
+can be multiple levels deep
+*/
+
+li.done {
+  color: green;
+}
+/*
+chaining
+apply where all selectors are true
+really really specific
+always tsart with the element in chaining
+leave no space between the selectors
+*/
+
+ul p.done {
+  font-size: 0.5rem;
+}
+/*
+Combining Combiners
+ancestor _ space _ specific combined_selectors
+*/
